@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Fleecebag</title>
     <link rel="icon" href="assets/img/purse.png">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min2.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -25,44 +22,51 @@
                     <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
                 </ul>
-                <a href="login.html"><button class="btn btn-primary" type="button">Login</button></a>
-                <a href="cart.html"><i class="fas fa-shopping-cart" style="padding-left: 2em; color: black;"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping" style="padding-right: 1.5em; color: #777;"></i></a>
+                <span>
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="">Login</a></li>
+                        <li class="nav-item nav-link">|</li>
+                        <li class="nav-item"><a class="nav-link" href="">Sign Up</a></li>
+                    </ul>
+                </span>
             </div>
         </div>
     </nav>
-    <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="height: 600px;">
+
+    <div id="carousel-1" class="carousel slide" data-bs-interval="false" style="height: 600px;">
         <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/carousel/c2.jpg" alt="Slide Image" style="z-index: -1;">
+            <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/carousel/c1.jpg" alt="Slide Image" style="z-index: -1;">
                 <div class="container d-flex flex-column justify-content-center h-100">
                     <div class="row">
-                        <div class="col-md-6 col-xl-4 offset-md-2">
+                        <div class="col-md-6 col-xl-4 offset-md-7">
                             <div style="max-width: 350px;">
-                                <h1 class="text-uppercase fw-bold">Creative, Elegant,<br>Practical And Iconic</h1>
-                                <p class="my-3">Each season brings new collections of fashionable models, expertly crafted from the House's signature materials</p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Women Handbags</a>
+                                <h1 class="text-uppercase fw-bold">Premium <br> Tote Bags</h1>
+                                <p class="my-3">Each season brings new collections , expertly crafted from the House's signature materials.</p><a class="btn btn-light btn-sm" role="button" href="#">Shop Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/carousel/c6.jpg" alt="Slide Image" style="z-index: -1;">
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/carousel/c2.jpg" alt="Slide Image" style="z-index: -1;">
                 <div class="container d-flex flex-column justify-content-center h-100">
                     <div class="row">
-                        <div class="col-md-6 col-xl-4 offset-md-2">
-                            <div style="max-width: 350px;">
+                        <div class="col-md-6 col-xl-4 offset-md-7">
+                            <div style="max-width: 350px; color: white;">
                                 <h1 class="text-uppercase fw-bold">Quality<br>Uncompromised</h1>
-                                <p class="my-3">Browse a vast selection of bags, and choose the one that best suits your personality</p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Laptop Bags</a>
+                                <p class="my-3">Browse a vast selection of bags, and choose the one that best suits your personality</p><a class="btn btn-dark btn-sm" role="button" href="#">Shop Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/carousel/c7.jpg" alt="Slide Image" style="z-index: -1;">
+            <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="assets/img/carousel/c3.jpg" alt="Slide Image" style="z-index: -1;">
                 <div class="container d-flex flex-column justify-content-center h-100">
                     <div class="row">
-                        <div class="col-md-6 col-xl-4 offset-md-2">
-                            <div style="max-width: 350px;">
-                                <h1 class="text-uppercase fw-bold">Peak Design<br>Everyday, Every Weather</h1>
-                                <p class="my-3">One of the biggest trends of recent seasons, backpacks continue to be a resounding success.</p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Traveller Bags</a>
+                        <div class="col-md-6 col-xl-4 offset-md-1">
+                            <div style="max-width: 350px; color: white;">
+                                <h1 class="text-uppercase fw-bold float-right">Peak Design<br>Everyday</h1>
+                                <p class="my-3">One of the biggest trends of recent seasons, backpacks continue to be a resounding success.</p><a class="btn btn-dark btn-sm" role="button" href="#">Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -79,132 +83,47 @@
     
     <br>
 
-    <!-- <div class="container text-white bg-primary border rounded border-0 p-4 p-lg-5 py-4 py-xl-5">
-        <div class="row mb-5">
-            <div class="col-md-8 col-xl-6 text-center mx-auto">
-                <h2 class="text-white">EXCLUSIVE SERVICES</h2>
-                <p class="w-lg-50">Some of the exclusive services provided by Fleecebag.</p>
+    <div class="bg-light py-5">
+        <div class="container py-5">
+          <div class="row mb-4">
+            <div class="col-lg-5">
+              <h2 class="display-4 font-weight-light">Our team</h2>
             </div>
+          </div>
+      
+          <div class="row text-center">
+            <!-- Team item-->
+            <div class="col-xl-6 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/dakshay.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Dakshay Ahuja</h5><span class="small text-smallcase text-muted">dakshayahuja02@gmail.com<br>+91 98110 84505</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="https://twitter.com/dakshayahuja" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="https://instagram.com/dakshayahuja" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="linkedin.com/in/dakshayahuja" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/dakshayahuja" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+      
+            <!-- Team item-->
+            <div class="col-xl-6 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/aditya.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Aditya Moudgil</h5><span class="small text-smallcase text-muted">moudgiladitya08@gmail.com<br>+91 98149 22983</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="https://twitter.com/adityamoudgil9" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="https://instagram.com/adityamoudgil_8" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://linkedin.com/in/dakshayahuja" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                  <li class="list-inline-item"><a href="https://github.com/Adityamoudgil" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+      
+          </div>
         </div>
-        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-            <div class="col">
-                <div class="d-flex">
-                    <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="50" fill="primary" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
-                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-                      </svg>
-                        </svg></div>
-                    <div class="px-3">
-                        <h4 class="text-white">BEST MATERIAL ATTAINED TO PERFECTION</h4>
-                        <p>Minimum defend rate of assembly process.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="d-flex">
-                    <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="50" fill="primary" class="bi bi-shop" viewBox="0 0 16 16">
-                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
-                      </svg>
-                        </svg></div>
-                    <div class="px-3">
-                        <h4 class="text-white">RESERVE IN STORE</h4>
-                        <p>Check the availability online of an item in store. Our staff will reserve it for you.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="d-flex">
-                    <div class="bs-icon-sm bs-icon-rounded bs-icon-semi-white text-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="50" fill="primary" class="bi bi-truck" viewBox="0 0 16 16">
-                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                      </svg>
-                        </svg></div>
-                    <div class="px-3">
-                        <h4 class="text-white">COMPLIMENTARY SHIPPING AND RETURNS
-                        </h4>
-                        <p>Complimentary standard shipping for registered clients and free returns.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+      </div>
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase">About Us</h2>
-                    <h3 class="text-muted section-subheading"></h3>
-                </div>
-            </div>
-            <section class="portfolio-block website bg-primary">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                            <h3 class="text-white"><img src="assets/img/purse.png" height="30px" style="padding-right: 10px;">Fleecebag</h3>
-                            <p class="text-white">A refined style and elegant design meets peculiarity in bags for women & men. Discover the whole collection<br>Only on <b>Fleecebag</b></p>
-                        </div>
-                        <div class="col-md-12 col-lg-5">
-                            <div class="portfolio-laptop-mockup">
-                                <div class="screen">
-                                    <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
-                                    <img src="assets/img/company/img1.png" height="170px" style="margin-top:-200px;margin-left:60px">
-                                </div>
-                                <div class="keyboard"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section><br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-group timeline">
-                        <li class="list-group-item">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/aditya.jpeg"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Aditya Moudgil</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        +91 98149 22983<br>moudgiladitya08@gmail.com<br>
-                                        <span>
-                                            <a target="_blank" href="https://www.instagram.com/adityamoudgil_8/"><i class="fa-brands fa-instagram"></i></a>
-                                            <a target="_blank" href="https://twitter.com/AdityaMoudgil9"><i class="fa-brands fa-twitter"></i></a>
-                                            <a target="_blank" href="https://in.linkedin.com/in/adityamoudgil"><i class="fa-brands fa-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/dakshay.jpeg"></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Dakshay Ahuja</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        +91 98110 84505<br>dakshayahuja02@gmail.com<br>
-                                        <span>
-                                            <a target="_blank" href="https://www.instagram.com/dakshayahuja/"><i class="fa-brands fa-instagram"></i></a>
-                                            <a target="_blank" href="https://twitter.com/dakshayahuja"><i class="fa-brands fa-twitter"></i></a>
-                                            <a target="_blank" href="https://www.linkedin.com/in/dakshayahuja"><i class="fa-brands fa-linkedin"></i></a>
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part<br>&nbsp;Of Our<br>&nbsp;Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
     
     <footer>
         <div class="container py-4 py-lg-5">

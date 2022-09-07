@@ -6,3 +6,38 @@
   padding: 0 0.6vw;
   color: #000;
 }
+
+.btn-login{
+  background-color: inherit;
+  color: #6D6875;
+  border-color: #6D6875;
+}
+
+.btn-login:hover{
+  background-color: #B5838D;
+  border-color: #B5838D;
+}
+
+.fa-bag-shopping:hover{
+  color:rgba(0, 0, 0, 0.745) !important;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  color: #555;
+}
