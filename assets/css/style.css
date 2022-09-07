@@ -41,3 +41,8 @@
   background: #ddd;
   color: #555;
 }
+
+.nav-link.active{
+  text-decoration:underline;
+  color: #B5838D !important;
+}
