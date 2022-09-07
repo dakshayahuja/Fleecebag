@@ -2,6 +2,10 @@
   object-fit: cover;
 }
 
+.navbar-brand span{
+  font-size: 1.2em;
+}
+
 .text-muted span a{
   padding: 0 0.6vw;
   color: #000;
@@ -43,6 +47,15 @@
 }
 
 .nav-link.active{
-  text-decoration:underline;
   color: #B5838D !important;
+}
+
+footer .social-link{
+  color: #E5989B;
+}
+
+footer .social-link:hover,
+.social-link:focus {
+  background: #6D6875;
+  color: #FFB4A2;
 }
