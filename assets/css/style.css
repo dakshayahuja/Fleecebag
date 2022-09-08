@@ -52,6 +52,7 @@
 
 footer .social-link{
   color: #E5989B;
+  border-color: #B5838D;
 }
 
 footer .social-link:hover,
@@ -60,4 +61,21 @@ footer .social-link:hover,
   color: #FFB4A2;
 }
 
+<<<<<<< HEAD
   
+=======
+footer{
+  background-color: #ffcdb23a;
+}
+
+footer .list-unstyled a{
+  color: #6D6875;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #tick {
+      display: none;
+  }
+}
+>>>>>>> e6d693d5ee379e75c8b9ac86c34e9802736e9013
