@@ -2,28 +2,28 @@
   object-fit: cover;
 }
 
-.navbar-brand span{
+.navbar-brand span {
   font-size: 1.2em;
 }
 
-.text-muted span a{
+.text-muted span a {
   padding: 0 0.6vw;
   color: #000;
 }
 
-.btn-login{
+.btn-login {
   background-color: inherit;
-  color: #6D6875;
-  border-color: #6D6875;
+  color: #6d6875;
+  border-color: #6d6875;
 }
 
-.btn-login:hover{
-  background-color: #B5838D;
-  border-color: #B5838D;
+.btn-login:hover {
+  background-color: #b5838d;
+  border-color: #b5838d;
 }
 
-.fa-bag-shopping:hover{
-  color:rgba(0, 0, 0, 0.745) !important;
+.fa-bag-shopping:hover {
+  color: rgba(0, 0, 0, 0.745) !important;
 }
 
 .social-link {
@@ -46,28 +46,75 @@
   color: #555;
 }
 
-.nav-link.active{
-  color: #B5838D !important;
+.nav-link.active {
+  color: #b5838d !important;
 }
 
-footer .social-link{
-  color: #E5989B;
-  border-color: #B5838D;
+footer{
+  background-color: #f2f2f2;
+}
+
+footer .social-link {
+  color: #e5989b;
+  border-color: #b5838d;
 }
 
 footer .social-link:hover,
 .social-link:focus {
-  background: #6D6875;
-  color: #FFB4A2;
+  background: #6d6875;
+  color: #ffb4a2;
 }
 
-footer .list-unstyled a{
-  color: #6D6875;
+footer .list-unstyled a {
+  color: #6d6875;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {
   #tick {
-      display: none;
+    display: none;
   }
+}
+
+.featuredprod img {
+  margin-bottom: 20px;
+}
+
+.featuredprod h3 {
+  font-size: 1em;
+  font-weight: 900 !important;
+}
+.featuredprod h3 a {
+  color: #B5838D;
+}
+
+.owl-2-style .owl-nav {
+  display: none;
+}
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+}
+.owl-2-style .owl-dots .owl-dot {
+  display: inline-block;
+}
+.owl-2-style .owl-dots .owl-dot span {
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  border-radius: 0px;
+  background: #cccccc;
+  -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+  margin: 3px;
+}
+.owl-2-style .owl-dots .owl-dot.active span {
+  background: #007bff;
+}
+.owl-2-style .owl-dots .owl-dot:active,
+.owl-2-style .owl-dots .owl-dot:focus {
+  outline: none;
 }
