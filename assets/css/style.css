@@ -84,6 +84,7 @@ footer .list-unstyled a {
   font-size: 1em;
   font-weight: 900 !important;
 }
+
 .featuredprod h3 a {
   color: #b5838d;
 }
@@ -97,9 +98,11 @@ footer .list-unstyled a {
   position: relative;
   bottom: -30px;
 }
+
 .owl-2-style .owl-dots .owl-dot {
   display: inline-block;
 }
+
 .owl-2-style .owl-dots .owl-dot span {
   display: inline-block;
   width: 15px;
@@ -111,9 +114,11 @@ footer .list-unstyled a {
   transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
   margin: 3px;
 }
+
 .owl-2-style .owl-dots .owl-dot.active span {
   background: #007bff;
 }
+
 .owl-2-style .owl-dots .owl-dot:active,
 .owl-2-style .owl-dots .owl-dot:focus {
   outline: none;
@@ -126,4 +131,3 @@ a.nav-link {
 a.nav-link:hover {
   color: #e5989b;
 }
-
