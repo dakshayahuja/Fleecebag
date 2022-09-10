@@ -1,79 +1,351 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Fleecebag</title>
-    <link rel="icon" href="assets/img/purse.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Fleecebag</title>
+        <link rel="icon" href="assets/img/purse.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <style>
+            .fa-bag-shopping:hover {
+                color: #E5989B !important;
+            }
+            .btn-login:hover{
+                background-color: #E5989B !important;
+                color: #f2f2f2;
+                border-color: #B5838D;
+            }
+        </style>
+    </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md py-3">
-        <div class="container"><img src="assets/img/purse.png" height="25px" style="padding-right: 10px;"><a class="navbar-brand d-flex align-items-center" href="index.html"><span>Fleecebag</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div id="navcol-3" class="collapse navbar-collapse">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="men.html">Men</a></li>
-                    <li class="nav-item"><a class="nav-link" href="women.html">Women</a></li>
-                    <li class="nav-item"><a class="nav-link" href="kids.html">Kids</a></li>
-                    <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
-                </ul>
-                <span>
+    <body style="  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);">
+        <nav class="navbar navbar-expand-md py-3">
+            <div class="container"><img src="assets/img/purse.png" height="25px" style="padding-right: 10px;"><a
+                    class="navbar-brand d-flex align-items-center text-light"
+                    href="index.html"><span>Fleecebag</span></a><button class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span
+                        class="navbar-toggler-icon"></span></button>
+                <div id="navcol-3" class="collapse navbar-collapse">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item nav-link"><a href="cart.html"><i class="fa-solid fa-bag-shopping" style="padding-right: 1em; color: #B5838D"></i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                        <li class="nav-item nav-link">|</li>
-                        <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="men.html">Men</a></li>
+                        <li class="nav-item"><a class="nav-link" href="women.html">Women</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kids.html">Kids</a></li>
+                        <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
                     </ul>
-                </span>
-            </div></div>
-    </nav>
-    <footer>
-        <div class="container py-4 pt-5">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">About</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#about">Terms & Conditions</a></li>
-                        <li><a class="link-secondary" href="#about">Contact us</a></li>
-                    </ul>
-                    <h3 class="fs-6 mt-3">Follow Us</h3>
-                    <ul class="social mb-0 list-inline">
-                        <li class="list-inline-item"><a class="social-link"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li class="list-inline-item"><a class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
-                      </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6">Customer Service</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Return Policy</a></li>
-                        <li><a class="link-secondary" href="#">Privacy Policy</a></li>
-                        <li><a class="link-secondary" href="#">Shipping Information</a></li>
-                        <li><a class="link-secondary" href="#">FAQs</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                    <div class="fw-bold d-flex align-items-center mb-2"><img src="assets/img/purse.png" height="25px" style="padding-right: 10px;"></span><span>Fleecebag</span></div>
-                    <p class="text-muted copyright">Think Once, Think Twice, Think Bags</p>               
-                    <h3 class="fs-6 mt-4 mb-2 text-uppercase">Payment Options</h3>
-                    <img class="img-fluid" src="https://imgs7.luluandsky.com/c46a684c-ab42-4e06-b225-5637924b47b3/wysiwyg/secure-payment-option.png">           
+                    <span>
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item nav-link"><a href="cart.html"><i class="fa-solid fa-bag-shopping"
+                                        style="padding-right: 1em; color: white"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                            <li class="nav-item nav-link text-white">|</li>
+                            <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                        </ul>
+                    </span>
                 </div>
             </div>
-            <hr>
-            <div class="d-flex justify-content-around align-items-center pt-3">
-                <p class="text-muted text-uppercase mb-0">Copyright © 2022 All Rights Reserved</p>
+        </nav>
+
+        <section class="h-100">
+            <div class="container py-5">
+                <div class="row d-flex justify-content-center my-4">
+                    <div class="col-md-8">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Cart - 3 items</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                        <!-- Image -->
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded"
+                                            data-mdb-ripple-color="light">
+                                            <img src="assets/img/carousel/c1.jpg"
+                                                class="w-100" alt="Blue Jeans Jacket" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- Image -->
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Data -->
+                                        <p><strong>Blue denim shirt</strong></p>
+                                        <p>Color: blue</p>
+                                        <button type="button" class="btn btn-login btn-sm me-1 mb-2"
+                                            data-mdb-toggle="tooltip" title="Remove item">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <!-- <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                        title="Move to the wish list">
+                        <i class="fas fa-heart"></i>
+                      </button> -->
+                                        <!-- Data -->
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Quantity -->
+                                        <div class="d-flex mb-4" style="max-width: 300px">
+                                            <button class="btn btn-login px-3 me-2"
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+
+                                            <div class="form-outline">
+                                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control" />
+                                                <label class="form-label" for="form1">Quantity</label>
+                                            </div>
+
+                                            <button class="btn btn-login px-3 ms-2"
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- Quantity -->
+
+                                        <!-- Price -->
+                                        <p class="text-start text-md-center">
+                                            <strong>₹2799</strong>
+                                        </p>
+                                        <!-- Price -->
+                                    </div>
+                                </div>
+                                <hr class="my-4" />
+
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                        <!-- Image -->
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded"
+                                            data-mdb-ripple-color="light">
+                                            <img src="assets/img/carousel/c2.jpg"
+                                                class="w-100" alt="Blue Jeans Jacket" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- Image -->
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Data -->
+                                        <p><strong>Blue denim shirt</strong></p>
+                                        <p>Color: blue</p>
+                                        <button type="button" class="btn btn-login btn-sm me-1 mb-2"
+                                            data-mdb-toggle="tooltip" title="Remove item">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <!-- <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                        title="Move to the wish list">
+                        <i class="fas fa-heart"></i>
+                      </button> -->
+                                        <!-- Data -->
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Quantity -->
+                                        <div class="d-flex mb-4" style="max-width: 300px">
+                                            <button class="btn btn-login px-3 me-2"
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+
+                                            <div class="form-outline">
+                                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control" />
+                                                <label class="form-label" for="form1">Quantity</label>
+                                            </div>
+
+                                            <button class="btn btn-login px-3 ms-2"
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- Quantity -->
+
+                                        <!-- Price -->
+                                        <p class="text-start text-md-center">
+                                            <strong>₹1999</strong>
+                                        </p>
+                                        <!-- Price -->
+                                    </div>
+                                </div>
+                                <hr class="my-4" />
+
+
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                        <!-- Image -->
+                                        <div class="bg-image hover-overlay hover-zoom ripple rounded"
+                                            data-mdb-ripple-color="light">
+                                            <img src="assets/img/carousel/c3.jpg"
+                                                class="w-100" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- Image -->
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Data -->
+                                        <p><strong>Red hoodie</strong></p>
+                                        <p>Color: red</p>
+
+                                        <button type="button" class="btn btn-login btn-sm me-1 mb-2"
+                                            data-mdb-toggle="tooltip" title="Remove item">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <!-- <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                        title="Move to the wish list">
+                        <i class="fas fa-heart"></i>
+                      </button> -->
+                                        <!-- Data -->
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                        <!-- Quantity -->
+                                        <div class="d-flex mb-4" style="max-width: 300px">
+                                            <button class="btn btn-login px-3 me-2"
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+
+                                            <div class="form-outline">
+                                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control" />
+                                                <label class="form-label" for="form1">Quantity</label>
+                                            </div>
+
+                                            <button class="btn btn-login px-3 ms-2"
+                                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </div>
+                                        <!-- Quantity -->
+
+                                        <!-- Price -->
+                                        <p class="text-start text-md-center">
+                                            <strong>₹4699</strong>
+                                        </p>
+                                        <!-- Price -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Summary</h5>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                        Products
+                                        <span>₹9497</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0">
+                                        GST(5%)
+                                        <span>474.85</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                        Shipping
+                                        <span>Free</span>
+                                    </li>
+                                    <li
+                                        class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                        <div>
+                                            <strong>Total amount</strong>
+                                        </div>
+                                        <span><strong>₹9971.85</strong></span>
+                                    </li>
+                                </ul>
+                                <center><button type="button" class="btn btn-login btn-lg btn-block">
+                                    Go to checkout
+                                </button></center>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <p class="mb-2"><strong>Expected shipping delivery</strong></p>
+                                <p class="mb-0 text-muted">Usually takes 5-7 days.</p>
+                                <p class="mb-0">12.10.2020 - 14.10.2020</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 mb-lg-9">
+                            <div class="card-body">
+                                <p><strong>We accept</strong></p>
+                                <img class="me-2" width="45px" src="assets/img/extra/upi.png" alt="UPI" />
+                                <img class="me-2" width="45px" src="assets/img/extra/visa.png" alt="Visa" />
+                                <img class="me-2" width="45px" src="assets/img/extra/mastercard.png" alt="Mastercard" />
+                                <img class="me-2" width="45px" src="assets/img/extra/rupay.png" alt="Rupay" />
+                                <img class="me-2" width="45px" src="assets/img/extra/cod.png" alt="Cash on Delivery" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/egjs-agent/2.4.3/agent.min.js"></script>
-</body>
+        </section>
+
+        <footer>
+            <div class="container py-4 pt-5">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                        <h3 class="fs-6">About</h3>
+                        <ul class="list-unstyled">
+                            <li><a class="link-secondary" href="#">Terms & Conditions</a></li>
+                            <li><a class="link-secondary" href="index.html#about">Contact us</a></li>
+                        </ul>
+                        <h3 class="fs-6">Contact Us</h3>
+                        <ul class="list-unstyled">
+                            <li><a style="color: #E5989B;" href="#">support@fleecebag.in</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                        <h3 class="fs-6">Customer Service</h3>
+                        <ul class="list-unstyled">
+                            <li><a class="link-secondary" href="#">Return Policy</a></li>
+                            <li><a class="link-secondary" href="#">Privacy Policy</a></li>
+                            <li><a class="link-secondary" href="#">Shipping Information</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
+                        <div class="fw-bold d-flex align-items-center mb-2"><img src="assets/img/purse.png"
+                                height="25px" style="padding-right: 10px;"></span><span>Fleecebag</span></div>
+                        <p class="text-muted copyright">Think Once, Think Twice, Think Bags</p>
+                        <h3 class="fs-6 mt-3">Follow Us</h3>
+                        <ul class="social mb-0 list-inline">
+                            <li class="list-inline-item"><a class="social-link"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a class="social-link"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around align-items-center pt-3">
+                    <p class="text-muted text-uppercase mb-0">Copyright © 2022 All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/egjs-agent/2.4.3/agent.min.js"></script>
+    </body>
 
 </html>
