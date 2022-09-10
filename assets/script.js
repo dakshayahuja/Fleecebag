@@ -45,4 +45,15 @@ $(function() {
         });            
     }
 
-})
+});
+
+$(document).ready(function(){
+  $("#checkout").click(function(){
+    Swal.fire({
+      title:'Order Placed',
+      text: 'Your order has been placed successfully.',
+      icon: 'success',
+      confirmButtonText: 'Okay'
+    })
+  });
+});
