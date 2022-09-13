@@ -222,9 +222,9 @@ input {
   }
 }
 
-@media(max-height: 800px){
+/* @media(max-height: 800px){
   .body{
     overflow: scroll;
     max-height: fit-content;
   }
-}
+} */
