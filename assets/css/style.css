@@ -131,3 +131,34 @@ a.nav-link {
 a.nav-link:hover {
   color: #e5989b;
 }
+
+.newsletter {
+  background-color: #f8edeb;
+  padding: 55px 74px;
+}
+
+
+.newsletter input{
+  width: 400px;
+  display: inline-block;
+  border-radius: 0%;
+  border: 2px solid #E5989B;
+}
+
+.newsletter .btn-primary {
+  background-color: #E5989B !important;
+  border: whitesmoke;
+  color: #fff;
+  outline: none !important;
+  border-radius: 0%;
+}
+
+.newsletter h2{
+  color: #B5838D;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+}
