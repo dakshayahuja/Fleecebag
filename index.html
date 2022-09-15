@@ -14,6 +14,7 @@
     </head>
 
     <body class="bg-light">
+        <!-- Navbar -->
         <nav class="navbar navbar-light navbar-expand-md py-3">
             <div class="container"><img src="assets/img/purse.png" height="25px" style="padding-right: 10px;"><a
                     class="navbar-brand d-flex align-items-center" href="#"><span>Fleecebag</span></a><button
@@ -30,8 +31,8 @@
                     </ul>
                     <span>
                         <ul class="navbar-nav mx-auto">
-                            <li class="nav-item nav-link"><a href="cart.html"><i class="fa-solid fa-bag-shopping"
-                                        style="padding-right: 1em; color: #777;"></i></a></li>
+                            <li class="nav-item nav-link"><a href="cart.html"><i
+                                        class="fa-solid fa-bag-shopping"></i></a></li>
                             <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
                             <li class="nav-item nav-link" id="tick">|</li>
                             <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
@@ -41,16 +42,17 @@
             </div>
         </nav>
 
-        <div id="carousel-1" class="carousel slide" data-bs-interval="false" style="height: 600px;">
+        <!-- Full Screen Carousel -->
+        <div id="carousel-1" class="carousel slide" data-bs-ride="carousel" style="height: 600px;">
             <div class="carousel-inner h-100">
-                <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100 fit-cover"
-                        src="assets/img/carousel/c1.jpg" alt="Slide Image" style="z-index: -1;">
+                <div class="carousel-item active h-100"><img class="w-100 d-block position-absolute h-100"
+                        src="assets/img/carousel/c1.jpg" alt="Slide Image" style="z-index: -1;object-fit: cover;">
                     <div class="container d-flex flex-column justify-content-center h-100">
                         <div class="row">
                             <div class="col-md-6 col-xl-4 offset-md-7">
                                 <div style="max-width: 350px;">
                                     <h1 class="text-uppercase fw-bold">Premium <br> Tote Bags</h1>
-                                    <p class="my-3">Each season brings new collections , expertly crafted from the
+                                    <p class="my-3">Each season brings new collections, expertly crafted from the
                                         House's signature materials.</p><a class="btn btn-light btn-sm" role="button"
                                         href="#">Shop Now</a>
                                 </div>
@@ -58,29 +60,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover"
-                        src="assets/img/carousel/c2.jpg" alt="Slide Image" style="z-index: -1;">
+                <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100"
+                        src="assets/img/carousel/c2.jpg" alt="Slide Image" style="z-index: -1;object-fit: cover;">
                     <div class="container d-flex flex-column justify-content-center h-100">
                         <div class="row">
                             <div class="col-md-6 col-xl-4 offset-md-7">
                                 <div style="max-width: 350px; color: white;">
                                     <h1 class="text-uppercase fw-bold">Quality<br>Uncompromised</h1>
-                                    <p class="my-3">Browse a vast selection of bags, and choose the one that best suits
-                                        your personality</p><a class="btn btn-dark btn-sm" role="button" href="#">Shop
+                                    <p class="my-3">Browse a vast selection of wallets, and choose the one that best
+                                        suits
+                                        your personality.</p><a class="btn btn-dark btn-sm" role="button" href="#">Shop
                                         Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100 fit-cover"
-                        src="assets/img/carousel/c3.jpg" alt="Slide Image" style="z-index: -1;">
+                <div class="carousel-item h-100"><img class="w-100 d-block position-absolute h-100"
+                        src="assets/img/carousel/c3.jpg" alt="Slide Image" style="z-index: -1;object-fit: cover;">
                     <div class="container d-flex flex-column justify-content-center h-100">
                         <div class="row">
                             <div class="col-md-6 col-xl-4 offset-md-1">
                                 <div style="max-width: 350px; color: white;">
                                     <h1 class="text-uppercase fw-bold float-right">Peak Design<br>Everyday</h1>
-                                    <p class="my-3">One of the biggest trends of recent seasons, backpacks continue to
+                                    <p class="my-3">One of the biggest trends of the recent seasons, backpacks continue
+                                        to
                                         be a resounding success.</p><a class="btn btn-dark btn-sm" role="button"
                                         href="#">Shop Now</a>
                                 </div>
@@ -89,10 +93,11 @@
                     </div>
                 </div>
             </div>
-            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span
-                        class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a
-                    class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span
-                        class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+            <div id="home-carousel-controls"><a class="carousel-control-prev" href="#carousel-1" role="button"
+                    data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span
+                        class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1"
+                    role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span
+                        class="visually-hidden">Next</span></a></div>
             <ol class="carousel-indicators">
                 <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
                 <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
@@ -100,12 +105,16 @@
             </ol>
         </div>
 
-        
+        <!-- Animated Banner -->
+        <div class="container-fluid px-0">
+            <img src="assets/img/banner2.gif" class="img-fluid">
+        </div>
 
+        <!-- Featured Products Carousel -->
         <div class="content">
             <div class="site-section mb-5">
                 <div class="container owl-2-style">
-                    <h2 class="pt-5 pb-4" style="color:#6D6875">Featured Products</h2>
+                    <h2 class="mt-5 mb-4 border-bottom" style="color:#6D6875">Featured Products</h2>
                     <div class="owl-carousel owl-2">
                         <div class="featuredprod">
                             <a href="#"><img src="assets/img/misc/tote.jpg" class="img-fluid"></a>
@@ -134,23 +143,207 @@
 
         </div>
 
+        <!-- Shop By Category -->
+        <div class="container category pt-2 pb-5 mb-5">
+            <h2 class="mt-5 mb-2 border-bottom" style="color:#6D6875">Shop by Category</h2>
+            <div class="row mt-2 g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-1">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Mobile</span> <span>Phones</span> </div>
+                            <div> <img src="assets/img/men/card1.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Head</span> <span>Phones</span> </div>
+                            <div> <img src="assets/img/men/card2.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Smart</span> <span>Watches</span> </div>
+                            <div> <img src=" assets/img/men/card3.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Air</span> <span>Purifiers</span> </div>
+                            <div> <img src="assets/img/men/card4.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2tr5">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Vacuum</span> <span>Cleaners</span> </div>
+                            <div> <img src="assets/img/men/card5.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Washing</span> <span>Machines</span> </div>
+                            <div> <img src="assets/img/men/card6.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Smart</span> <span>Televisions</span> </div>
+                            <div> <img src="assets/img/men/extra.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <div class="flex-column lh-1 imagename"> <span>Laptops</span> </div>
+                            <div> <img src="assets/img/men/card1.jpg" height="100" width="100" /> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner 2 -->
         <div class="container-fluid px-0">
             <div class="card">
                 <img src="assets/img/banner1.webp" class="card-img-bottom">
             </div>
         </div>
 
-        <div class="py-5" id="about">
-            <div class="container py-5">
-                <div class="row mb-4">
-                    <div class="col-lg-5">
-                        <h2 class="display-4 font-weight-light">About Our Company</h2>
+        <!-- Top Offers -->
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="mt-5 pb-2 border-bottom" style="color:#6D6875">Top Offers</h2>
+
+            <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-4">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('assets/img/misc/tote.jpg'); background-size: cover;">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>Earth</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('assets/img/misc/tote.jpg'); background-size: cover;">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>Earth</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="row bg-white rounded shadow-sm py-5 px-4">
-                    <div class="col-4">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('assets/img/misc/tote.jpg'); background-size: cover;">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple
+                                lines</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>Pakistan</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>4d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+                        style="background-image: url('assets/img/misc/tote.jpg'); background-size: cover;">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill" />
+                                    </svg>
+                                    <small>California</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3" />
+                                    </svg>
+                                    <small>5d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Us -->
+        <div class="mt-5 pt-2 pb-5" id="about">
+            <div class="container pb-5">
+                <h2 class="border-bottom pb-1 mb-3" style="color:#6D6875">About Our Company</h2>
+
+                <div class="row bg-white rounded shadow-sm py-5 px-5">
+                    <div class="col-sm-6 col-md-4 my-3">
 
                         <h3 class="mb-4">Fleecebag</h3><span class="small text-smallcase text-muted">Think Once, Think
                             Twice, Think Bags.</span>
@@ -165,7 +358,7 @@
                                         class="fa-brands fa-tiktok"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 my-3">
                         <h3>Contact Us</h3>
                         <ul class="list-group-flush px-0">
                             <li class="list-group-item d-table"><span class="d-table-cell" style="width: 30px;"><i
@@ -178,19 +371,14 @@
                                     class="text-muted d-table-cell">support@fleecebag.in</span></li>
                         </ul>
                     </div>
-                    <div class="col-4 text-center">
+                    <div class="col-sm-6 col-md-4 my-3 text-center mx-auto">
                         <img src="assets/img/logo.png" alt="" width="200vw"
                             class="img-fluid  mb-3 img-thumbnail shadow-sm">
                     </div>
                 </div>
             </div>
-            <div class="container py-5">
-                <div class="row mb-4">
-                    <div class="col-lg-5">
-                        <h2 class="display-4 font-weight-light">Our team</h2>
-                    </div>
-                </div>
-
+            <div class="container pb-5">
+                <h2 class="border-bottom pb-1 mb-3" style="color:#6D6875">Our team</h2>
                 <div class="row text-center">
                     <div class="col-xl-6 col-sm-6 mb-5">
                         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/img/dakshay.jpeg" alt=""
@@ -203,7 +391,7 @@
                                         class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="https://instagram.com/dakshayahuja"
                                         class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="linkedin.com/in/dakshayahuja"
+                                <li class="list-inline-item"><a href="https://linkedin.com/in/dakshayahuja"
                                         class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
                                 <li class="list-inline-item"><a href="https://github.com/dakshayahuja"
                                         class="social-link"><i class="fa-brands fa-github"></i></a></li>
@@ -222,7 +410,7 @@
                                         class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="https://instagram.com/adityamoudgil_8"
                                         class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="https://linkedin.com/in/dakshayahuja"
+                                <li class="list-inline-item"><a href="https://linkedin.com/in/adityamoudgil"
                                         class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
                                 <li class="list-inline-item"><a href="https://github.com/Adityamoudgil"
                                         class="social-link"><i class="fa-brands fa-github"></i></a></li>
@@ -233,6 +421,7 @@
             </div>
         </div>
 
+        <!-- Newsletter Section -->
         <div class="newsletter container-fluid">
             <div class="container">
                 <div class="intro">
@@ -240,13 +429,14 @@
                 </div>
                 <div>
                     <span class="d-flex justify-content-center" style="margin-right: -4px;">
-                    <input class="form-control" type="email" placeholder="Enter your email address">
-                    <button class="btn btn-primary" type="submit" onclick="location.href='index.html'">Subscribe </button>
+                        <input class="form-control" type="email" placeholder="Enter your email address">
+                        <button type="button" id="subscribe" class="btn btn-primary">Subscribe </button>
                     </span>
                 </div>
             </div>
         </div>
 
+        <!-- Footer -->
         <footer>
             <div class="container py-4 pt-5">
                 <div class="row justify-content-center">
@@ -297,12 +487,13 @@
             </div>
         </footer>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/egjs-agent/2.4.3/agent.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="assets/script.js"></script>
     </body>
 

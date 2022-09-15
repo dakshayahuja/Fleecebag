@@ -26,6 +26,8 @@ $(function () {
       items: 1,
       loop: true,
       stagePadding: 0,
+      mouseDrag: true,
+      touchDrag: true,
       margin: 20,
       smartSpeed: 1300,
       autoplay: true,
@@ -46,7 +48,7 @@ $(function () {
   }
 });
 
-$(document).ready(function () {
+$(document).ready(function (){
   $("#checkout").click(function () {
     Swal.fire({
       title: "Order Placed",
@@ -55,6 +57,15 @@ $(document).ready(function () {
       confirmButtonText: "Okay",
     });
   });
+    $("#subscribe").click(function () {
+      Swal.fire({
+        title: "Thank You!",
+        text: "You are now subscribed to our weekly newsletter.",
+        icon: "success",
+        confirmButtonText: "Yayy",
+      });
+  });
+});
 
   //code for changing the prices by changing quantity
   // var taxRate = 0.05;
@@ -113,7 +124,7 @@ $(document).ready(function () {
   //     recalculateCart();
   //   });
   // }
-});
+// });
 
 //function to format dates
 function formatDate(date) {
