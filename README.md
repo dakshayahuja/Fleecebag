@@ -1,8 +1,9 @@
 # Fleecebag
 Fleebag - Online store for shopping Bags
+<h2><a href="https://dakshayahuja.github.io/Fleecebag/">Demo</a>
 
 
-<a href="https://coolors.co/palette/ffcdb2-ffb4a2-e5989b-b5838d-6d6875">Color Palette</a>
+<h4><a href="https://coolors.co/palette/ffcdb2-ffb4a2-e5989b-b5838d-6d6875">Color Palette</a>
 
 <h2>Dependencies Used</h2>
 <a href="https://getbootstrap.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png?20210507000024" alt="Bootstrap" height="28"></a> &nbsp;
