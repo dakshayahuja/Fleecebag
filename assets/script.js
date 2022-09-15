@@ -1,28 +1,22 @@
-// // Instantiate the Bootstrap carousel
-// $('.multi-item-carousel').carousel({
-//     interval: false
-//   });
-
-//   // for every slide in carousel, copy the next slide's item in the slide.
-//   // Do the same for the next, next item.
-//   $('.multi-item-carousel .item').each(function(){
-//     var next = $(this).next();
-//     if (!next.length) {
-//       next = $(this).siblings(':first');
-//     }
-//     next.children(':first-child').clone().appendTo($(this));
-
-//     if (next.next().length>0) {
-//       next.next().children(':first-child').clone().appendTo($(this));
-//     } else {
-//         $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-//     }
-//   });
-
-$(function () {
-  if ($(".owl-2").length > 0) {
-    $(".owl-2").owlCarousel({
-      // center: true,
+$(document).ready(function () {
+  $("#checkout").click(function () {
+    Swal.fire({
+      title: "Order Placed",
+      text: "Your order has been placed successfully.",
+      icon: "success",
+      confirmButtonText: "Okay",
+    });
+  });
+  $("#subscribe").click(function () {
+    Swal.fire({
+      title: "Thank You!",
+      text: "You are now subscribed to our weekly newsletter.",
+      icon: "success",
+      confirmButtonText: "Yayy",
+    });
+  });
+  if ($(".owl-1").length > 0) {
+    $(".owl-1").owlCarousel({
       items: 1,
       loop: true,
       stagePadding: 0,
@@ -47,84 +41,6 @@ $(function () {
     });
   }
 });
-
-$(document).ready(function (){
-  $("#checkout").click(function () {
-    Swal.fire({
-      title: "Order Placed",
-      text: "Your order has been placed successfully.",
-      icon: "success",
-      confirmButtonText: "Okay",
-    });
-  });
-    $("#subscribe").click(function () {
-      Swal.fire({
-        title: "Thank You!",
-        text: "You are now subscribed to our weekly newsletter.",
-        icon: "success",
-        confirmButtonText: "Yayy",
-      });
-  });
-});
-
-  //code for changing the prices by changing quantity
-  // var taxRate = 0.05;
-  // var fadeTime = 300;
-
-  // $(".pass-quantity input").change(function () {
-  //   updateQuantity(this);
-  // });
-
-  // $(".remove-item button").click(function () {
-  //   removeItem(this);
-  // });
-
-  // function recalculateCart() {
-  //   var subtotal = 0;
-
-  //   $(".item").each(function () {
-  //     subtotal += parseFloat($(this).children(".product-line-price").text());
-  //   });
-
-  //   var tax = subtotal * taxRate;
-  //   var total = subtotal + tax;
-
-  //   $(".totals-value").fadeOut(fadeTime, function () {
-  //     $("#cart-subtotal").html(subtotal.toFixed(2));
-  //     $("#cart-tax").html(tax.toFixed(2));
-  //     $(".cart-total").html(total.toFixed(2));
-  //     if (total == 0) {
-  //       $(".checkout").fadeOut(fadeTime);
-  //     } else {
-  //       $(".checkout").fadeIn(fadeTime);
-  //     }
-  //     $(".totals-value").fadeIn(fadeTime);
-  //   });
-  // }
-
-  // function updateQuantity(quantityInput) {
-  //   var productRow = $(quantityInput).parent().parent();
-  //   var price = parseFloat(productRow.children(".product-price").text());
-  //   var quantity = $(quantityInput).val();
-  //   var linePrice = price * quantity;
-
-  //   productRow.children(".product-line-price").each(function () {
-  //     $(this).fadeOut(fadeTime, function () {
-  //       $(this).text(linePrice.toFixed(2));
-  //       recalculateCart();
-  //       $(this).fadeIn(fadeTime);
-  //     });
-  //   });
-  // }
-
-  // function removeItem(removeButton) {
-  //   var productRow = $(removeButton).parent().parent();
-  //   productRow.slideUp(fadeTime, function () {
-  //     productRow.remove();
-  //     recalculateCart();
-  //   });
-  // }
-// });
 
 //function to format dates
 function formatDate(date) {

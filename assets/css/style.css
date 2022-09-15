@@ -99,21 +99,21 @@ footer .list-unstyled a {
   color: #b5838d;
 }
 
-.owl-2-style .owl-nav {
+.owl-1-style .owl-nav {
   display: none;
 }
 
-.owl-2-style .owl-dots {
+.owl-1-style .owl-dots {
   text-align: center;
   position: relative;
   bottom: -30px;
 }
 
-.owl-2-style .owl-dots .owl-dot {
+.owl-1-style .owl-dots .owl-dot {
   display: inline-block;
 }
 
-.owl-2-style .owl-dots .owl-dot span {
+.owl-1-style .owl-dots .owl-dot span {
   display: inline-block;
   width: 15px;
   height: 3px;
@@ -125,12 +125,12 @@ footer .list-unstyled a {
   margin: 3px;
 }
 
-.owl-2-style .owl-dots .owl-dot.active span {
+.owl-1-style .owl-dots .owl-dot.active span {
   background: #007bff;
 }
 
-.owl-2-style .owl-dots .owl-dot:active,
-.owl-2-style .owl-dots .owl-dot:focus {
+.owl-1-style .owl-dots .owl-dot:active,
+.owl-1-style .owl-dots .owl-dot:focus {
   outline: none;
 }
 
