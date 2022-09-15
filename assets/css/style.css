@@ -196,3 +196,8 @@ a.nav-link:hover {
   vertical-align:text-bottom; 
   font-size:50%; 
 }
+
+#topbar div{
+  font-size: 12px;
+  line-height: 1.3em;
+}
