@@ -184,3 +184,15 @@ a.nav-link:hover {
 .imagename {
   font-size: 14px;
 }
+
+.home-discount sup{
+  margin: 0 0.3em;
+  vertical-align:text-top; 
+  font-size:50%;
+}
+
+.home-discount sub{
+  margin: 0 0.3em;
+  vertical-align:text-bottom; 
+  font-size:50%; 
+}
