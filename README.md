@@ -1,5 +1,5 @@
 # Fleecebag
-Fleebag - Online store for shopping Bags
+Fleecebag - Online store for shopping Bags
 <h2><a href="https://dakshayahuja.github.io/Fleecebag/">Demo</a>
 
 
