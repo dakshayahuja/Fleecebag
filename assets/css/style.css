@@ -1,8 +1,11 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   #tick {
     display: none;
   }
   #home-carousel-controls{
+    display: none;
+  }
+  .dropdown{
     display: none;
   }
 }
