@@ -13,7 +13,7 @@
     </head>
 
     <body style="background: linear-gradient(to left, #0f2027, #203a43, #2c5364);">
-        <nav class="navbar navbar-expand-md py-3">
+        <nav class="navbar navbar-expand-md py-3 text-white">
             <div class="container"><img src="assets/img/purse.png" height="25px" style="padding-right: 10px;"><a
                     class="navbar-brand d-flex align-items-center text-light" href="index.html"><span>Fleecebag</span></a><button
                     class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-3"><span
@@ -29,10 +29,9 @@
                     </ul>
                     <span>
                         <ul class="navbar-nav mx-auto">
-                            <li class="nav-item nav-link"><a href="cart.html"><i class="fa-solid fa-bag-shopping"
-                                        ></i></a></li>
+                            <li class="nav-item nav-link"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                             <li class="nav-item"><a class="nav-link active" href="login.html">Login</a></li>
-                            <li class="nav-item nav-link text-white">|</li>
+                            <li class="nav-item nav-link text-white" id="tick">|</li>
                             <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
                         </ul>
                     </span>
@@ -42,10 +41,10 @@
 
         <div class="container container-login100">
             <div class="body d-md-flex align-items-center justify-content-between" style="background-color: #f2f2f2;">
-                <div class="box-1 mt-md-0 mt-5">
+                <div class="box-1">
                     <img src="assets/img/login.png">
                 </div>
-                <div class=" box-2 d-flex flex-column h-100">
+                <div class="box-2 d-flex flex-column h-100">
                     <div class="mx-auto my-auto">
                 <form class="login100-form validate-form" action="index.html">
                     <span class="login100-form-title text-center pb-3">Login</span>
@@ -104,6 +103,20 @@
                 </form>
             </div>
             </div>
+            </div>
+        </div>
+
+        <div class="newsletter container-fluid">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center">Subscribe to our Newsletter</h2>
+                </div>
+                <div>
+                    <span class="d-flex justify-content-center" style="margin-right: -4px;">
+                        <input class="form-control" type="email" placeholder="Enter your email address">
+                        <button type="button" id="subscribe" class="btn-primary">Subscribe </button>
+                    </span>
+                </div>
             </div>
         </div>
 
