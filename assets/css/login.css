@@ -178,9 +178,14 @@ input {
   color: #666666;
 }
 
-/* .container-login100 {
-  min-height: 100vh;
-} */
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: white;
+  text-decoration: overline;
+}
 
 .login100-form {
   width: 290px;
