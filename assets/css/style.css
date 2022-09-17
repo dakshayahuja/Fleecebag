@@ -14,9 +14,12 @@
   font-size: 1.2em;
 }
 
-
 .navbar-light .navbar-nav .nav-link:hover {
   text-decoration: overline;
+}
+
+#tick:hover{
+  text-decoration: none;
 }
 
 .fa-bag-shopping{
@@ -41,7 +44,7 @@
 }
 
 .fa-bag-shopping:hover {
-  color: rgba(0, 0, 0, 0.745) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .social-link {
@@ -65,7 +68,7 @@
 }
 
 .nav-link.active {
-  color: #FFB4A2 !important;
+  color: #B5838D !important;
   font-weight: bold;
 }
 
@@ -194,4 +197,29 @@ footer .list-unstyled a {
 #topbar div{
   font-size: 12px;
   line-height: 1.3em;
+}
+
+.categories{
+  background-color: #f6f6f6;
+}
+
+.categories a{
+  color: #6D6875;
+}
+
+.categories a:hover, .categories a:focus{
+  color: #E5989B;
+  font-size: 1.02em;
+}
+
+a.dropdown-item.active{
+  background-color: #B5838D;
+}
+
+a.dropdown-item.active:hover{
+  background-color: #ce96a2;
+}
+
+a.dropdown-item:hover{
+  background-color: #edf2f4;
 }
