@@ -180,6 +180,8 @@ footer .list-unstyled a {
 
 .imagename {
   font-size: 14px;
+  font-weight: 500;
+  padding: 1em;
 }
 
 .home-discount sup{
