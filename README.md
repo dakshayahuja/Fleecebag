@@ -1,7 +1,8 @@
 # Fleecebag
-Fleecebag - Online store for shopping Bags
-<h2><a href="https://dakshayahuja.github.io/Fleecebag/">Demo</a>
 
+Fleecebag - Online store for shopping Bags
+
+<h2><a href="https://dakshayahuja.github.io/Fleecebag/">Demo</a>
 
 <h4><a href="https://coolors.co/palette/ffcdb2-ffb4a2-e5989b-b5838d-6d6875">Color Palette</a>
 

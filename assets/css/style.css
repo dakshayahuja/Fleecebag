@@ -2,10 +2,10 @@
   #tick {
     display: none;
   }
-  #home-carousel-controls{
+  #home-carousel-controls {
     display: none;
   }
-  .dropdown{
+  .dropdown {
     display: none;
   }
 }
@@ -18,12 +18,12 @@
   text-decoration: overline;
 }
 
-#tick:hover{
+#tick:hover {
   text-decoration: none;
 }
 
-.fa-bag-shopping{
-  color:#777;
+.fa-bag-shopping {
+  color: #777;
   padding-right: 1em;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .nav-link.active {
-  color: #B5838D !important;
+  color: #b5838d !important;
   font-weight: bold;
 }
 
@@ -145,24 +145,23 @@ footer .list-unstyled a {
   padding: 55px 74px;
 }
 
-
-.newsletter input{
+.newsletter input {
   width: 400px;
   display: inline-block;
   border-radius: 0%;
-  border: 2px solid #E5989B;
+  border: 2px solid #e5989b;
 }
 
 .newsletter .btn-primary {
-  background-color: #E5989B !important;
+  background-color: #e5989b !important;
   border: whitesmoke;
   color: #fff;
   outline: none !important;
   border-radius: 0%;
 }
 
-.newsletter h2{
-  color: #B5838D;
+.newsletter h2 {
+  color: #b5838d;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 25px;
@@ -175,7 +174,7 @@ footer .list-unstyled a {
   height: 130px;
   overflow: hidden;
   border: none;
-  border-radius: 15px
+  border-radius: 15px;
 }
 
 .imagename {
@@ -184,44 +183,45 @@ footer .list-unstyled a {
   padding: 1em;
 }
 
-.home-discount sup{
+.home-discount sup {
   margin: 0 0.3em;
-  vertical-align:text-top; 
-  font-size:50%;
+  vertical-align: text-top;
+  font-size: 50%;
 }
 
-.home-discount sub{
+.home-discount sub {
   margin: 0 0.3em;
-  vertical-align:text-bottom; 
-  font-size:50%; 
+  vertical-align: text-bottom;
+  font-size: 50%;
 }
 
-#topbar div{
+#topbar div {
   font-size: 12px;
   line-height: 1.3em;
 }
 
-.categories{
+.categories {
   background-color: #f6f6f6;
 }
 
-.categories a{
-  color: #6D6875;
+.categories a {
+  color: #6d6875;
 }
 
-.categories a:hover, .categories a:focus{
-  color: #E5989B;
+.categories a:hover,
+.categories a:focus {
+  color: #e5989b;
   font-size: 1.02em;
 }
 
-a.dropdown-item.active{
-  background-color: #B5838D;
+a.dropdown-item.active {
+  background-color: #b5838d;
 }
 
-a.dropdown-item.active:hover{
+a.dropdown-item.active:hover {
   background-color: #ce96a2;
 }
 
-a.dropdown-item:hover{
+a.dropdown-item:hover {
   background-color: #edf2f4;
 }
