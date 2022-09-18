@@ -74,6 +74,7 @@ $short_end_date = new Date($end_date).toLocaleDateString("en-US");
 document.getElementById("end-delivery-date").innerHTML = $short_end_date;
 
 function updatePrice() {
+
   var quantity = document.getElementById("quantity").value;
   var unitPrice = document.getElementById("unitPrice").innerText;
   var price = quantity * unitPrice;
@@ -89,24 +90,20 @@ function updatePrice() {
   var price3 = quantity3 * unitPrice3;
   document.getElementById("finalPrice3").innerText = price3;
 
-
   var totalPrice = price + price2 + price3;
-  var gst = Math.round(((0.05 * totalPrice) + Number.EPSILON) * 100) / 100;
+  var gst = Math.round((0.05 * totalPrice + Number.EPSILON) * 100) / 100;
   var shipping = 0;
   var totalAmount = totalPrice + gst + shipping;
 
-  if(totalPrice<1000){
+  if (totalPrice < 1000) {
     shipping = 100;
-    document.getElementById('shipping').innerText = shipping;
-  }
-  else{
+    document.getElementById("shipping").innerText = shipping;
+  } else {
     shipping = 0;
-    document.getElementById('shipping').innerText = shipping;
+    document.getElementById("shipping").innerText = shipping;
   }
 
   document.getElementById("totalPrice").innerText = totalPrice;
   document.getElementById("gst").innerText = gst;
   document.getElementById("totalAmount").innerText = totalAmount;
 }
-
-
