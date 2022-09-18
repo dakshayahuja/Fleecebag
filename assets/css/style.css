@@ -1,4 +1,4 @@
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
   #tick {
     display: none;
   }
@@ -7,6 +7,18 @@
   }
   .dropdown {
     display: none;
+  }
+}
+
+@media (max-width: 576px){
+  .row .col{
+    height: 25vh !important;
+  }
+}
+
+@media (min-width:1500px){
+  .container#custom-cards, .container.owl-1-style{
+    max-width: 90vw;
   }
 }
 
@@ -224,4 +236,8 @@ a.dropdown-item.active:hover {
 
 a.dropdown-item:hover {
   background-color: #edf2f4;
+}
+
+#custom-cards a{
+  text-decoration: none;
 }
