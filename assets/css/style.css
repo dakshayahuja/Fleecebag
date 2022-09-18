@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 576px){
-  .row .col{
+  #custom-cards .row .col{
     height: 25vh !important;
   }
 }
