@@ -7,6 +7,7 @@ $(document).ready(function () {
       confirmButtonText: "Okay",
     });
   });
+  
   $("#subscribe").click(function () {
     Swal.fire({
       title: "Thank You!",
@@ -15,6 +16,7 @@ $(document).ready(function () {
       confirmButtonText: "Yayy",
     });
   });
+
   if ($(".owl-1").length > 0) {
     $(".owl-1").owlCarousel({
       items: 1,
@@ -70,3 +72,5 @@ $end_date.setDate($end_date.getDate() + $numberOfDays);
 $end_date = formatDate($end_date);
 $short_end_date = new Date($end_date).toLocaleDateString("en-US");
 document.getElementById("end-delivery-date").innerHTML = $short_end_date;
+
+$(document).ready(function () {});
